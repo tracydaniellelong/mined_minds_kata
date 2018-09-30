@@ -26,4 +26,7 @@ class Testing < Minitest::Test
 	def test_fizz_number_8
 		assert_equal(8, fizz(8))
 	end
+	def test_fizz_number_9
+		assert_equal("Mined", fizz(9))
+	end
 end
