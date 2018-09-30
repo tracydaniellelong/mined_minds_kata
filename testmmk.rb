@@ -23,4 +23,7 @@ class Testing < Minitest::Test
 	def test_fizz_number_7
 		assert_equal(7, fizz(7))
 	end
+	def test_fizz_number_8
+		assert_equal(8, fizz(8))
+	end
 end
